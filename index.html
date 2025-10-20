@@ -146,6 +146,97 @@
       margin-top: 20px;
       font-weight: 600;
     }
+    /* 📱 Mobile Responsive */
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  /* 💌 Envelope adjustments */
+  .envelope {
+    width: 280px;
+    height: 180px;
+    margin: 100px auto;
+  }
+
+  .flap {
+    border-left: 140px solid transparent;
+    border-right: 140px solid transparent;
+    border-top: 90px solid #ff8fab;
+  }
+
+  .message {
+    top: 60px;
+    font-size: 1em;
+    padding: 0 15px;
+  }
+
+  /* 🌸 Slides adjustments */
+  .slide img {
+    width: 85vw;
+    max-width: 250px;
+  }
+
+  .quote {
+    font-size: 1em;
+    padding: 0 20px;
+    margin-top: 15px;
+  }
+
+  button {
+    padding: 12px 30px;
+    font-size: 1.1em;
+    margin-top: 30px;
+  }
+
+  /* ❤️ Hearts adjustments */
+  .heart {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .envelope {
+    width: 250px;
+    height: 160px;
+    margin: 80px auto;
+  }
+
+  .flap {
+    border-left: 125px solid transparent;
+    border-right: 125px solid transparent;
+    border-top: 80px solid #ff8fab;
+  }
+
+  .message {
+    top: 50px;
+    font-size: 0.9em;
+  }
+
+  button {
+    padding: 14px 35px;
+    font-size: 1.2em;
+  }
+
+  .quote {
+    font-size: 0.9em;
+    padding: 0 15px;
+  }
+}
+
+/* Prevent horizontal scroll on very small devices */
+@media screen and (max-width: 320px) {
+  .envelope {
+    width: 220px;
+    margin: 60px auto;
+  }
+  
+  .flap {
+    border-left: 110px solid transparent;
+    border-right: 110px solid transparent;
+  }
+}
   </style>
 </head>
 <body>
